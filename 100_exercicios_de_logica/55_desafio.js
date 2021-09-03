@@ -18,6 +18,7 @@ if(numeroSorteado === numeroJogador){
         numeroJogador = parseInt(window.prompt("Digite um número"));
         if(numeroSorteado === numeroJogador){
             console.log("Acertou!")
+            break;
         }else if(contador === 3){
             console.log("Suas tentativas acabaram!!")
         }
