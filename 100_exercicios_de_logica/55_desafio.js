@@ -1,5 +1,5 @@
 /*
-    [DESAFIO] Crie um jogo onde o computador vai sortear um número entre 1 e 5 o 
+    32) [DESAFIO] Crie um jogo onde o computador vai sortear um número entre 1 e 5 o 
     jogador vai tentar descobrir qual foi o valor sorteado
     
     55) [DESAFIO] Vamos melhorar o jogo que fizemos no exercício 32. A partir de 
@@ -23,8 +23,7 @@ if(numeroSorteado === numeroJogador){
             console.log("Suas tentativas acabaram!!")
         }
         contador += 1
-    }
-    
+    }   
 }
 
 
