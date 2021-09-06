@@ -45,9 +45,6 @@ while (contador == contador) {
 
     }
 
-
-
-
     fim = +window.prompt("Deseja continuar? 1 para sim // 2 para não")
     if (fim == 2 || fim == 2) {
         document.write(`Programa encerrado! <br>`)
@@ -58,8 +55,6 @@ while (contador == contador) {
     }
     contador += 1
 }
-
-
 
 document.write(`Pessoa mais velha: ${nomeMaisVelho} - Sexo: ${sexo} - Idade ${idade} <br>`)
 document.write(`A média de idade do grupo é ${media.toFixed(2)} anos <br>`)
