@@ -2,4 +2,26 @@
 
 
 
-
+var somaIdade = 0, mediaIdade = 0;
+var op = 0;
+for (var i = 1; i == i; i++) {
+    var idade = +window.prompt(`${i}° idade: `);
+    somaIdade += idade
+    console.log(idade)
+    console.log(i)
+    op = window.prompt("1 - Encerrar\n 2 - continuar")
+    if (op == 1) {
+        break;
+    } else if (op != 2) {
+        break;
+    }
+}
+mediaIdade = somaIdade / i
+if (mediaIdade <= 25) {
+    console.log("Grupo Jovem")
+} else if (mediaIdade <= 60) {
+    console.log("Grupo Adulto")
+} else {
+    console.log("Grupo Idoso")
+}
+console.log(mediaIdade)
